@@ -14,7 +14,7 @@
         {
             "id": 2,
             "code": "234",
-            "clue": "Go look somewhere",
+            "clue": "Go look somewhere else",
             "clueNum": 4,
             "showClueNum": true,
             "incLink": true,
@@ -24,11 +24,11 @@
         },
         {
             "id": 1,
-            "code": "123",
-            "clue": "Go look somewhere",
+            "code": "345",
+            "clue": "Go find yet another place to look",
             "clueNum": 7,
             "showClueNum": false,
-            "incLink": false,
+            "incLink": true,
             "linkAddress": "https://www.w3schools.com/colors/colors_picker.asp",
             "linkText": "",
             "hunt": 1

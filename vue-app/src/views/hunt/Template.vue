@@ -1,16 +1,21 @@
 <template>
   <h1>Tresure Hunt</h1>
   <div class="hr">
-    <input type="checkbox" id="speakCheckbox" class="customCheckbox">
+    <input type="checkbox" id="speakCheckbox" class="customCheckbox" v-model="speak">
     <label for="speakCheckbox" class="customCheckbox"><span>Speak Clue</span></label>
   </div>
   <br>
-  <router-view/>
+  <router-view :speak="speak"/>
 </template>
 
 <script>
 export default {
-  name: 'Clue'
+  name: 'Clue',
+  data() {
+    return {
+      speak: true
+    }
+  }
 }
 </script>
 

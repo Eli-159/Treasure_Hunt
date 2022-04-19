@@ -12,6 +12,7 @@
 <script>
 export default {
   name: 'EnterCode',
+  props: ['speak'],
   data() {
     return {
       code: ''

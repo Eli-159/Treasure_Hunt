@@ -25,7 +25,8 @@ const routes = [
       {
         path: 'clue/:code',
         name: 'Clue',
-        component: Clue
+        component: Clue,
+        props: true
       }
     ]
   }

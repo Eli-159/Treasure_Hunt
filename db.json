@@ -3,7 +3,7 @@
         {
             "id": 1,
             "code": "123",
-            "clue": "Go look somewhere",
+            "msg": "Go look somewhere",
             "clueNum": 3,
             "showClueNum": true,
             "incLink": false,
@@ -14,7 +14,7 @@
         {
             "id": 2,
             "code": "234",
-            "clue": "Go look somewhere else",
+            "msg": "Go look somewhere else",
             "clueNum": 4,
             "showClueNum": true,
             "incLink": true,
@@ -25,7 +25,7 @@
         {
             "id": 3,
             "code": "345",
-            "clue": "Go find yet another place to look",
+            "msg": "Go find yet another place to look",
             "clueNum": 7,
             "showClueNum": false,
             "incLink": true,

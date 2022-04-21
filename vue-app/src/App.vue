@@ -21,4 +21,8 @@
     max-width: 800px;
     margin: auto;
   }
+
+  #nprogress .bar {
+    background: var(--main-text-color) !important;
+  }
 </style>
